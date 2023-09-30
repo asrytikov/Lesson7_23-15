@@ -1,3 +1,5 @@
+package dz4;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,7 +16,7 @@ public class Main {
             int b = scanner.nextInt();
 
             int temp = operation(a, b, oper);
-            
+
             while (true){
                 System.out.println("Input 2 int");
                 b = scanner.nextInt();
